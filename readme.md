@@ -20,6 +20,7 @@ require('load-grunt-tasks')(grunt); // npm install --save-dev load-grunt-tasks
 grunt.initConfig({
   simplePreprocess: {
     target: {
+      env: 'prod',
       src: 'src/index.html',
       dest: 'dest/index.html'
     }
