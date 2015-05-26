@@ -1,0 +1,48 @@
+{
+  "name": "grunt-simple-preprocess",
+  "version": "0.0.0",
+  "description": "Preprocess html, js and css based off environment configuration",
+  "license": "MIT",
+  "repository": "stevemao/grunt-simple-preprocess",
+  "author": {
+    "name": "Steve Mao",
+    "email": "maochenyan@gmail.com",
+    "url": "https://github.com/stevemao"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "grunt"
+  },
+  "files": [
+    "tasks"
+  ],
+  "keywords": [
+    "gruntplugin",
+    "simple-preprocess",
+    "ENV",
+    "environment",
+    "if",
+    "endif",
+    "process",
+    "simple",
+    "fast",
+    "preprocess",
+    "pragma"
+  ],
+  "dependencies": {
+    "chalk": "^1.0.0",
+    "simple-preprocess": "^1.0.1"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-cli": "^0.1.13",
+    "grunt-contrib-clean": "^0.6.0",
+    "grunt-contrib-copy": "^0.8.0",
+    "grunt-contrib-jshint": "^0.11.2",
+    "grunt-contrib-nodeunit": "^0.4.1",
+    "grunt-jscs": "^1.8.0",
+    "load-grunt-tasks": "^3.2.0"
+  }
+}
